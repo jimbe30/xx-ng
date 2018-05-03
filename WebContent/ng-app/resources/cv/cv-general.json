@@ -1,0 +1,26 @@
+{
+	"civilite" : "Jean-Marc Brun",
+	"titre" : "Ingénieur Java/J2EE confirmé",
+	"tel" : "06 41 69 56 66",
+	"email" : "jmbrun1969@yahoo.fr",
+	"adresse" : 
+	[
+		"26 bis, avenue des Goumiers",
+		"13008 Marseille"
+	],
+	"qualites" :
+	[
+		"Alliant compétences fonctionnelles et techniques",
+		"Mariant rigueur et agilité"
+	],
+	"arguments" : 
+	[
+		"Afin de concevoir et développer des solutions efficaces qui valorisent vos systèmes d'information,", 
+		"voici quelques-un des aspects qui pour ma part ne figurent pas au rang d'abstraites préoccupations:",
+		"- La qualité d'un travail produit rigoureusement selon les règles de l'art",
+		"- La compréhension et la satisfaction des besoins utilisateurs",
+		"- La maîtrise des charges et délais",
+		"- L'usage de technologies robustes et éprouvées",
+		"Ce sont là des principes que je me fais un point d'honneur de toujours mettre en oeuvre" 
+	]
+}

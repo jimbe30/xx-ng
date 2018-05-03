@@ -1,0 +1,116 @@
+  
+       <div style="width: 830px; margin: auto;" ng-controller="cvCtrl">
+       
+       	<table style="background:#EEEEEE; width: 100%;" class="bordure_point">
+            <tr>
+                <td>
+                
+                	<table>
+            			<tr>
+                			<td>
+                				<img src="assets/images/photo_cv1.jpg" width="110px" height="120px" style="margin: 0px;"/>
+                			</td>
+                			<td style="padding: 0px;">
+		                          <div class="titre">{{general.civilite}}</div>
+		                          <div ng-repeat="qualite in general.qualites">{{qualite}}</div>
+
+                			</td>
+                		</tr>
+                		<tr>
+                			<td colspan="2" style="padding: 0px;">
+                				<div class="nopadx"><img src="assets/images/telephone.png" width="10px" height="10px"/>{{general.tel}}</div>
+		                        <div class="nopadx"><img src="assets/images/COURRIEL.gif" width="10px" height="10px"/>{{general.email}}</div>
+		                        <div class="nopadx"><img src="assets/images/boite_aux_lettres.GIF" width="10px" height="10px" style="margin-right: 5px;"/>
+		                           <span class="nopad"><div ng-repeat="ligne in general.adresse">{{ligne}}</div></span>
+		                        </div>
+                			</td>
+                		</tr>
+                	</table>
+                </td>   
+                         
+                <td style="border-left: 1px solid #FFFFFF; padding-left: 10px">            
+                       <div class="titreCentre">{{general.titre}}</div>
+                       <div ng-repeat="argument in general.arguments">{{argument}}</div>
+                </td>
+            </tr>          
+        </table> 
+	   
+        <table width="100%" class="nopadx">
+            <tbody>
+                <tr>
+                    <!-- Partie gauche -->
+                    <td width="50%">
+                        
+                        <!-- Expérience professionnelle -->
+                        <fieldset>                            
+                            <legend>
+                                <label class="bleu14IB">&nbsp;&nbsp;&nbsp;EXPERIENCE PROFESSIONNELLE&nbsp;&nbsp;&nbsp;</label>
+                            </legend>
+                            
+                            <table border="0" align="left">
+                                <tbody>
+                                    <tr ng-repeat="experience in experiences">
+                                        <td class="nopadx"> 
+                                            <span class="noir12B">{{experience.dates}} - {{experience.fonction}} |</span>
+                                            <span class="bleu12">{{experience.entreprise}}</span>
+                                            <div ng-repeat="activite in experience.activites">
+                                            	{{activite.intitule}}
+                                            	<ul>
+                                                	<li ng-repeat="tache in activite.taches">{{tache}}</li>
+                                            	</ul>
+                                            </div>
+                                        </td>
+                                    </tr>                                           
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </td>
+                    
+                    <!-- Partie droite -->
+                    <td valign="top">
+                        
+                        <!-- Compétences -->
+                        <fieldset>
+                            <legend>
+                                <label class="bleu14IB">&nbsp; &nbsp; &nbsp;COMPETENCES &nbsp; &nbsp; &nbsp; </label>
+                            </legend>
+                            
+                            <table border="0" align="left">
+                                <tbody>
+                                    <tr ng-repeat="competence in competences">
+                                        <td class="nopadx">
+                                        	<div class="noir12B">{{competence.intitule}}</div>
+                                        	<ul>
+                                                <li ng-repeat="detail in competence.details">{{detail}}</li>
+                                            </ul>
+                                        </td>
+                                    </tr>                                           
+                                </tbody>
+                            </table>
+                            
+                        </fieldset>
+                        
+                        <!-- Formations -->
+                        <fieldset>
+                            <legend>
+                                <label class="bleu14IB">&nbsp; &nbsp; &nbsp;ETUDES ET FORMATIONS &nbsp; &nbsp; &nbsp; </label>
+                            </legend>
+                            
+                            <table border="0" align="left">
+                                <tbody>
+                                    <tr ng-repeat="formation in formations">
+                                    	<td class="nopadx"> 
+                                        	<span class="noir12">{{formation.date}} - {{formation.intitule}} |</span>
+                                            <span class="bleu12">{{formation.organisme}}</span>                                            
+                                        </td>
+                                    </tr>                                                
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+	</div>

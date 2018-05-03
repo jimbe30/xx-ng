@@ -1,0 +1,69 @@
+[
+	{
+		"dates": "Jan 2017...",
+		"entreprise": "CETIP (Marseille)",
+		"fonction": "Architecte développeur J2EE",
+		"activites": 
+		[
+			{
+				"intitule": "Dans le cadre de la gestion déléguée du régime complémentaire: ",
+				"taches": 
+				[
+					"Refonte de l'architecture et réalisation d'évolutions sur l'application GRC : Spring MVC, JPA (Hibernate), JSP/servlets et JQuery",
+					"Conception et développement d'évolutions sur la GED : webservices REST sous Spring et Angular"
+				]
+			}, 
+			{
+				"intitule": "Dans le cadre du tiers payant des prestations de santé:",
+				"taches":
+				[
+					"Webservices SOAP avec Axis2",
+					"Évolution des portails clients : Struts, JSP/servlets"
+				]
+			}, 
+			{
+				"intitule": "Rédaction des guides d'installation, de paramétrage et d'utilisation pour chaque livraison"
+			} 
+		]
+	},
+	{
+		"dates": "2009-2016",
+		"entreprise": "CEGEDIM ACTIV (Labège)",
+		"fonction": "Ingénieur de développement Java/J2EE",
+		"activites": 
+		[
+			{
+				"taches": 
+				[
+					"Conception et réalisation en architecture 3 tiers : Framework Struts, JSP/servlets, Spring IOC.",
+					"Développement de traitements batchs Java à forte volumétrie",
+					"Gros chantier performances : parallélisation des traitements (multithread) | optimisation des accès BDD | optimisation des algorithmes",
+					"Diagnostic et maintenance corrective",
+					"Assistance à maitrise d’ouvrage sur les phases de cadrage, expression de besoins, spécifications, homologation et mise en prod"
+				]
+			}
+		]
+	},
+	{
+		"dates": "2002-2009",
+		"entreprise": "SIROCO (Nîmes)",
+		"fonction": "Etude et développement Java",
+		"activites":
+		[
+			{
+				"intitule": "Participation à toutes les phases de la refonte complète d'une application de gestion (> 200 000 personnes gérées)"
+			}
+		]
+	},
+	{
+		"dates": "Et avant",
+		"entreprise": "...",
+		"fonction": "Divers métiers",
+		"activites":
+		[
+			{
+				"intitule": "Développeur (Orange), prof de maths (Isle sur Sorgues), ouvrier agricole (Pernes les Fontaines)"
+			}
+		]
+	}
+]

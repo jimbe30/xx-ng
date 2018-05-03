@@ -1,0 +1,46 @@
+[
+	{
+		"date": "2018",
+		"intitule": "Angular 2 et 4",
+		"organisme": "Orsys (Aix)"			
+	},
+	{
+		"date": "2018",
+		"intitule": "Spring 4 - mise en oeuvre avancée",
+		"organisme": "Orsys (Aix)"			
+	},
+	{
+		"date": "2017",
+		"intitule": "Framework Spring 4",
+		"organisme": "Orsys (Aix)"			
+	},
+	{
+		"date": "2012",
+		"intitule": "Analyse et Conception avec UML",
+		"organisme": "Valtech Training (Labège)"			
+	},
+	{
+		"date": "2009",
+		"intitule": "Java avancé",
+		"organisme": "Orsys (Paris)"			
+	},
+	{
+		"date": "2001",
+		"intitule": "Analyste Concepteur en Systèmes d'Information",
+		"organisme": "AFPA (Marseille) / diplôme d'Etat Bac+4"			
+	},
+	{
+		"date": "1998",
+		"intitule": "Licence Maths",
+		"organisme": "Université (Avignon)"			
+	},
+	{
+		"date": "1992",
+		"intitule": "Maîtrise d'économétrie / Statistiques et modélisation appliquées à l’économie",
+		"organisme": "Université (Paris 1)"			
+	},
+	{
+		"date": "1988",
+		"intitule": "Baccalauréat – série C"
+	}
+]

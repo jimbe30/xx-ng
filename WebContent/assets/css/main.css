@@ -1,0 +1,468 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+td {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    vertical-align:top;
+    padding:5px;
+}
+
+ul {
+    padding: 0px; 
+    margin: 0px 0px 5px;
+}
+
+li {
+    list-style: none;
+    background-image: url("../images/puce_bloc.gif");
+    background-repeat: no-repeat; /* pas de répétition par défaut */
+/*     background-position: 0px 6px; positionnement */
+/*     background-size: 15px 10px; */
+    padding: 3px 3px 3px 20px;    /* évite la superposition du contenu */
+
+}
+
+div {
+    vertical-align:top;
+    padding:5px;
+}
+
+.nopad, .nopad div {
+	padding:0px;
+	margin:0px;
+}
+
+.nopadx, .nopadx td, .nopadx span, .nopadx div {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+span {
+    display:inline-block; 
+    vertical-align:top;
+}
+
+img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+fieldset {
+    margin-top:10px;
+    border:3px solid #DADADA;
+	border-radius: 5px;
+}
+
+
+.bordure {
+	border: solid 1px #CCCCCC;
+}
+
+.bordure_point {
+	border: solid 1px #CCCCCC;
+	border-style: dotted;
+	border-radius: 5px;
+}
+
+.bordure_nuage {
+	border: solid 5px #E4E4E4;
+}
+
+
+.noir14IB {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+	margin: auto;
+}
+
+.titreBleu, .titre, .titreBleuCentre, .titreCentre {
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 20px;	
+	font-weight: bold;
+	font-style: italic;
+	color: #7e7e7e;
+}
+
+.titreBleu, .titreBleuCentre {
+	color: #25a6b4;
+}
+
+.titreBleuCentre, .titreCentre {	
+	text-align: center;
+}
+
+.bleu10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #316AC5;
+}
+
+.bleu10B {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #316AC5;
+	font-weight: bold;
+}
+
+.bleu11B {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #316AC5;
+	font-weight: bold;
+}
+
+.bleu12B {
+	font-size: 12px;
+	color: #316AC5;
+	font-weight: bold;
+}
+
+.bleu12IB {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #316AC5;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+.bleu11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	/*color:#3EADF0;*/ /*color:#0080FF;*/
+	color: #2B59A8;
+}
+
+.bleu12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #25a6b4;
+}
+
+.bleu14, .bleu14I {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #2B59A8;
+}
+
+.bleu14I {
+	font-style: italic;
+}
+
+.bleu14IB {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #25a6b4;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.bordeau11 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #800000;
+}
+
+.bordeau11B {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #800000;
+	font-weight: bold;	
+}
+
+.bordeau12 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #800000;
+}
+
+.bordeau12IB {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #800000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.label {
+	font-family: Arial;
+	font-size: 12px;
+	color: #3EADF0;
+}
+
+.gris12{
+	color : #939393;
+	font-size: 12px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.close {	
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #B10000;
+	font-size: 10px;
+	vertical-align: text-top;
+	text-align:center;
+	cursor: hand;
+	border: solid 1px #DDDDDD;
+	background-color: #F0F0F0;
+	font-weight: bold;
+}
+
+.multiselect{
+	border: 1px solid #7eabe2;
+	color: #646464;
+	padding: 2px;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.gris11{
+	color : #939393;
+	font-size: 11px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.gris11B{
+	color : #939393;
+	font-size: 11px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+
+.gris12B{
+	color : #939393;
+	font-size: 12px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+
+.gris12IB {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color : #707070;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.anthracite10{
+	color: #646464;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.anthracite10B{
+	color: #646464;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.anthracite11{
+	color: #646464;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.noir10 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+
+.noir11 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.noir11I{	
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.noir12 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.noir11B {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+.noir12B {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.noir12IB {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.noir14IB {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.noir10B {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.vert11{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color : #4A9422;
+}
+
+.vert11B{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color : #4A9422;
+	font-weight: bold;
+}
+
+.vert12IB {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4A9422;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+.vert10B{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color : #4A9422;
+	font-weight: bold;
+}
+
+.blanc11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.blanc11B {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.anthracite11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #646464;
+	font-weight: normal;
+}
+
+.anthracite12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #646464;
+}
+
+.anthracite12B {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #646464;
+	font-weight: bold;
+}
+
+.anthracite_trebuchet {
+	font: 12px Trebuchet MS, arial;
+	padding: 0;
+	margin: 0;
+}
+
+.bouton_bleu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #2d75c9;
+	border-top: 1px solid #a7c6eb;
+	border-right: 1px solid #225590;
+	border-bottom: 1px solid #153c69;
+	border-left: 1px solid #6a9eda;
+}
+
+.bouton_gris {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #b3b3b3;
+	border-top: 1px solid #a7c6eb;
+	border-right: 1px solid #225590;
+	border-bottom: 1px solid #153c69;
+	border-left: 1px solid #6a9eda;
+}
+
+a.onglet {
+	font-size: 11px;
+	font-family: verdana;
+	color: #666666;
+	text-decoration: none;
+	float: left;
+}
+
+a.onglet:hover {
+	font-size: 11px;
+	font-family: verdana;
+	color: #3E9EFF;
+	text-decoration: none;
+}
+
+a.onglet:active {
+	font-size: 11px;
+	font-family: verdana;
+	color: #3E9EFF;
+	text-decoration: none;
+}
+
+div.section{	
+	margin-bottom: 1em;
+}
+
+div.section div.title{
+	padding: 2px 4px;
+	font-size: 1.2em;
+	font-weight: bold;	
+}
+
+div.section div.contents{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+div.section div.contents div.contents_inner{
+	position: relative;
+	display: block;
+	padding: 1em 8px;
+}

@@ -1,0 +1,32 @@
+[
+	{
+		"intitule": "Langages et technos",
+		"details" : [
+			"Java / J2EE / JSP Servlets ++++",
+			"Frameworks Spring (MVC, IoC, Batch), Struts, Tiles ++++",
+			"JPA (Hibernate) +++",
+			"Javascript, Ajax, JQuery, Angular +++",
+			"HTML, CSS ++"
+		]
+	},
+	{
+		"intitule": "Environnements et outils",
+		"details" : [
+			"Serveur d'applications : Apache / Tomcat",
+			"Atelier de développement : Eclipse IDE",
+			"Configuration de projet : Maven & Ant", 
+			"Gestionnaire de versions : SVN & GIT",
+			"Intégration continue : Jenkins"
+		]
+	},
+	{
+		"intitule": "AMOA",
+		"details" : [
+			"Animation de groupes de travail, recueil des besoins",
+			"Modélisation des processus et données (UML, MERISE)",
+			"Analyse fonctionnelle et conception du paramétrage", 
+			"Rédaction des spécifications, documents de formation, guides utilisateurs et fiches pratiques",
+			"Formation utilisateurs, formation interne"
+		]
+	}
+]
