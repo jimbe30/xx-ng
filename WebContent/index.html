@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html ng-app="app">
+<html>
   <head>
     <meta charset="UTF-8">
 	<title>ng-cv</title>
@@ -12,14 +12,8 @@
 		<div class="container">
 	    	<div style="margin: auto;" ng-view></div>
 	    </div>
-	
-		<script src="lib/angular/angular.js"></script>
-		<script src="lib/angular-route/angular-route.js"></script>
-		
-		<script src="ng-app/shared/shared.module.js"></script>
-		<script src="ng-app/shared/services/loadObject.service.js"></script>
-		<script src="ng-app/components/cv.js"></script>
-	    <script src="ng-app/app.modules.js"></script>
+
+	    <script src="lib/import.js" main-script="startup.js?v1"></script>
         
 	</body>
 </html>

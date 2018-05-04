@@ -1,14 +1,11 @@
 /**
  * 
  */
-
-(function() {
-	
 	var resources = {
-			general : 'ng-app/resources/cv/cv-general.json',
-			experiences : 'ng-app/resources/cv/cv-experiences.json',
-			competences : 'ng-app/resources/cv/cv-competences.json',
-			formations : 'ng-app/resources/cv/cv-formations.json'
+			general : 'ng-app/resources/cv/cv-general.json' + vers,
+			experiences : 'ng-app/resources/cv/cv-experiences.json' + vers,
+			competences : 'ng-app/resources/cv/cv-competences.json' + vers,
+			formations : 'ng-app/resources/cv/cv-formations.json' + vers
 	};
 	
 	var cvApp = angular.module('cvApp', ['shared-module']);
@@ -19,4 +16,3 @@
 		}			
 	}]);
 	
-})();

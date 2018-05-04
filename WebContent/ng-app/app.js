@@ -2,7 +2,7 @@
  * 
  */
 (function() {
-	
+
 	angular.module('app', [
 		'ngRoute', 
 		'cvApp'
@@ -13,6 +13,8 @@
 	        templateUrl: 'ng-app/components/cv.html'
 	    });
 	}]);
+	
+	angular.bootstrap(document, ['app']);
 	
 }) ();
 

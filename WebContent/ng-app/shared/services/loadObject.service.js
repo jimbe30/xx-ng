@@ -2,8 +2,6 @@
  * 
  */
 
-(function() {
-	
 	var shared = angular.module('shared-module');
 	
 	shared.factory('objectLoader', ['$http', '$rootScope', function ($http, $rootScope) {
@@ -24,6 +22,3 @@
 		return new Loader();
 		
 	}]);
-
-
-}) ();
